@@ -1,0 +1,37 @@
+version: "3.1"
+nlu:
+- intent: inquire_god
+  examples: |
+    - who is [Odin](god_name)
+    - tell me about [Thor](god_name)
+    - what do you know about [Loki](god_name)
+- intent: inquire_goddess
+  examples: |
+    - who is [Frigg](goddess_name)
+    - tell me about [Freyja](goddess_name)
+    - what do you know about [Idunn](goddess_name)
+- intent: inquire_creature
+  examples: |
+    - what is a [Valkyrie](creature_name)
+    - tell me about [Fenrir](creature_name)
+    - what do you know about [Jormungandr](creature_name)
+- intent: inquire_realm
+  examples: |
+    - what is [Midgard](realm_name)
+    - tell me about [Asgard](realm_name)
+    - what do you know about [Jotunheim](realm_name)
+- intent: inquire_bifrost
+  examples: |
+    - tell me about the [Bifrost](realm_name)
+    - what is the [Bifrost bridge](realm_name)
+    - what is the story of the [Rainbow bridge](realm_name)
+- intent: inquire_asgard
+  examples: |
+    - tell me about [Asgard](realm_name)
+    - what is [Asgard](realm_name)
+    - what is the story of [Asgard](realm_name)
+- intent: inquire_aesir_vanir
+  examples: |
+    - tell me about the [Æsir](realm_name) and [Vanir](realm_name)
+    - what is the war between the [Æsir](realm_name) and [Vanir](realm_name)
+    - what is the story between the [Æsir](realm_name) and [Vanir](realm_name)
