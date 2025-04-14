@@ -35,3 +35,23 @@ nlu:
     - tell me about the [Æsir](realm_name) and [Vanir](realm_name)
     - what is the war between the [Æsir](realm_name) and [Vanir](realm_name)
     - what is the story between the [Æsir](realm_name) and [Vanir](realm_name)
+- intent: inquire_runes
+  examples: |
+    - what is [Fehu](rune_name)
+    - tell me about the meaning of [Uruz](rune_name)
+    - what are the [runes](rune_name)
+- intent: inquire_eddas
+  examples: |
+    - what is the [Poetic Edda](edda_name)
+    - tell me about the [Prose Edda](edda_name)
+    - what are the [Eddas](edda_name)
+- intent: inquire_stories
+  examples: |
+    - tell me a story about [Thor](god_name)
+    - what are the stories of [creation](story_topic)
+    - tell me the story of [Ragnarok](story_topic)
+- intent: inquire_sagas
+  examples: |
+    - tell me about the [Volsunga Saga](saga_title)
+    - what is the [Saga of the Jomsvikings](saga_title)
+    - what are the [Norse Sagas](saga_title)
