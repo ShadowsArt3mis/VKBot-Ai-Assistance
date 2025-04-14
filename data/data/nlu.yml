@@ -1,5 +1,23 @@
 version: "3.1"
 nlu:
+- intent: greet
+  examples: |
+    - Hail, traveler!
+    - Greetings, seeker of lore.
+    - Hark! What news dost thou bring?
+    - Hail and well met!
+    - Skol!
+    - May the gods be with you.
+    - A fair welcome to thee.
+- intent: goodbye
+  examples: |
+    - May your path be fair.
+    - Farewell, until we meet again.
+    - Go now in peace.
+    - Skol and safe travels!
+    - May the Bifrost guide you.
+    - Hailsa! (Farewell)
+    - Until the next saga!
 - intent: inquire_god
   examples: |
     - who is [Odin](god_name)
@@ -55,3 +73,20 @@ nlu:
     - tell me about the [Volsunga Saga](saga_title)
     - what is the [Saga of the Jomsvikings](saga_title)
     - what are the [Norse Sagas](saga_title)
+- intent: inquire_god_story
+  examples: |
+    - what's the story of [Odin](god_name)
+    - tell me a tale about [Thor](god_name)
+    - do you know any stories about [Loki](god_name)
+- intent: inquire_god_domain
+  examples: |
+    - what is [Odin](god_name)'s domain?
+    - what is [Thor](god_name) the god of?
+    - what are [Freyja](goddess_name)'s responsibilities?
+    - what domain does [Heimdall](god_name) have?
+- intent: inquire_god_comparison
+  examples: |
+    - how is [Odin](god_name) different from [Thor](god_name)?
+    - compare [Loki](god_name) and [Heimdall](god_name)
+    - similarities between [Freyja](goddess_name) and [Frigg](goddess_name)
+    - what's the difference between the powers of [Tyr](god_name) and [Thor](god_name)
